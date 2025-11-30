@@ -1,0 +1,16 @@
+[
+    {
+        "ID": 1001,
+        "name": "Ahmed",
+        "dep": "HR",
+        "Job": "Manager",
+        "Pass": "123"
+    },
+    {
+        "ID": 1002,
+        "name": "Mohmed",
+        "dep": "HR",
+        "Job": "Manager",
+        "Pass": "103"
+    }
+]
