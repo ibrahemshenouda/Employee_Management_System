@@ -37,7 +37,7 @@ The project follows a modular architecture:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ibrahemshenouda/Employee_Management_System.git](https://github.com/ibrahemshenouda/Employee_Management_System.git)
+    git clone https://github.com/ibrahemshenouda/Employee_Management_System.git
     ```
 
 2.  **Navigate to the project folder:**
