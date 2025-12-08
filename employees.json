@@ -1,16 +1,26 @@
 [
     {
-        "ID": 1001,
-        "name": "Ahmed",
-        "dep": "HR",
-        "Job": "Manager",
-        "Pass": "123"
+        "id": "101",
+        "name": "Ahmed Ali",
+        "dept": "Software",
+        "salary": 15000,
+        "password": "123",
+        "absence": 2
     },
     {
-        "ID": 1002,
-        "name": "Mohmed",
-        "dep": "HR",
-        "Job": "Manager",
-        "Pass": "103"
+        "id": "102",
+        "name": "Sarah Ezzat",
+        "dept": "HR",
+        "salary": 12000,
+        "password": "456",
+        "absence": 5
+    },
+    {
+        "id": "103",
+        "name": "Ibrahim",
+        "dept": "Software",
+        "salary": 30000.0,
+        "password": "333",
+        "absence": 0
     }
 ]

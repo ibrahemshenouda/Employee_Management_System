@@ -4,7 +4,11 @@ import gui
 
 
 def main():
-    pass
+    root = tk.Tk()
+
+    app = gui.EmployeeApp(root)
+
+    root.mainloop()
 
 
 if __name__ == "__main__":

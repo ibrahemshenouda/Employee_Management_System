@@ -7,9 +7,9 @@ FILE_NAME = "employees.json"
 
 def load_data():
     if not os.path.exists(FILE_NAME):
-        default_account = [{"ID": 1001, "name": "Ahmed", "dep": "HR", "Job": "Manager", "Pass": "123"},
-                           {"ID": 1002, "name": "Mohmed", "dep": "HR",
-                               "Job": "Manager", "Pass": "103"}
+        default_account = [{"id": "101", "name": "Ahmed Ali", "dept": "Software", "salary": 15000, "password": "123", "absence": 2},
+                           {"id": "102", "name": "Sarah Ezzat", "dept": "HR",
+                               "salary": 12000, "password": "456", "absence": 5}
                            ]
         save_data(default_account)
         return default_account
@@ -33,14 +33,14 @@ def get_employee_by_id(emp_id):
     employee_db = load_data()
 
     for emp in employee_db:
-        if emp["ID"] == emp_id:
+        if emp["id"] == emp_id:
             return emp
     else:
         return None
 
 
 def add_employee(new_emp):
-    if get_employee_by_id(new_emp["ID"]):
+    if get_employee_by_id(new_emp["id"]):
         return False
 
     employee_db.append(new_emp)
@@ -50,7 +50,7 @@ def add_employee(new_emp):
 
 def delete_employee(emp_id):
     for index, emp in enumerate(employee_db):
-        if emp["ID"] == emp_id:
+        if emp["id"] == emp_id:
             del employee_db[index]
             save_data(employee_db)
             return True
